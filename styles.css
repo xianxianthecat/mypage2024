@@ -1,0 +1,13 @@
+body {
+    font-family: 'Segoe UI';
+}
+table {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+th {
+    background-color: lightskyblue;
+}
+td {
+    font-weight: 300;
+}
