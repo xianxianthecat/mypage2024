@@ -1,13 +1,35 @@
 body {
     font-family: 'Segoe UI';
+    background-color: ghostwhite;
 }
 table {
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 7px;
+    width: 100%;
 }
 th {
     background-color: lightskyblue;
 }
 td {
     font-weight: 300;
+}
+img {
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    margin: 10px;
+    object-fit: cover;
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+hr {
+    border-color: cornflowerblue;
+    border-style: dashed none;
+}
+.flex {
+    display: flex;
+}
+.margin1 {
+    margin: 60px 20px 0 30px;
 }
